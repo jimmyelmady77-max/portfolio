@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Video Editor &amp; Motion Designer</title>
+<meta name="description" content="Cinematic edits, short-form content and motion graphics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&amp;display=swap" rel="stylesheet">
+
+<style>artifact-sync,artifact-local{display:contents}</style><!--
+========== EASY CUSTOMIZATION ==========
+Everything you normally change is in TWO places:
+  1) The COLORS block just below (CSS variables).
+  2) The SITE SETTINGS block (the <script> right after it).
+Edit only the text between quotes "like this". Don't delete commas or quotes.
+========================================
+-->
+
+<style>
+/* ========== 1) COLORS (CHANGE COLORS HERE) ========== */
+:root{
+  --bg:#070707;        /* page background */
+  --card:#101010;      /* cards */
+  --text:#F4F4F4;      /* main text */
+  --muted:#8E8E8E;     /* secondary text */
+  --border:#252525;    /* thin borders */
+  --accent:#FFFFFF;    /* white accent */
+}
+</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style>
+
+<!-- ========== 2) SITE SETTINGS (CHANGE EVERYTHING ELSE HERE) ========== -->
+<script type="application/json" id="data">{"projects":[{"title":"Social Media Campaign","category":"Advertising · Social Media","description":"","video":"https://youtube.com/shorts/K8jyXdm0guk","videoParts":null,"videoType":"","thumbnail":"","link":""},{"title":"Social Media Campaign","category":"Advertising · Social Media","description":"","video":"https://youtube.com/shorts/-N5ce_3Lyvs","videoParts":null,"videoType":"","thumbnail":"","link":""},{"title":"Visual Motion","category":"Motion Design · Animation","description":"","video":"https://youtube.com/shorts/ZhRiSspK4Lc","videoParts":null,"videoType":"","thumbnail":"","link":""},{"title":"Visual Motion","category":"Motion Design · Animation","description":"","video":"https://youtube.com/shorts/_E8UNA2UNbU","videoParts":null,"videoType":"","thumbnail":"","link":""},{"title":"Wedding Stories","category":"Cinematic Wedding Films · Emotional Moments · Storytelling","description":"","video":"https://youtu.be/JXUj-uA9ZTg","videoParts":null,"videoType":"","thumbnail":"","link":""},{"title":"Wedding Stories","category":"Cinematic Wedding Films · Emotional Moments · Storytelling","description":"","video":"https://youtu.be/TPiMtdYCIb0","videoParts":null,"videoType":"","thumbnail":"","link":""}],"profile":{"name":"JIMMY","email":"elmadymo0@gmail.com","whatsapp":"https://wa.me/201014383899","instagram":"https://www.instagram.com/j_im_m_yy/","heroLabel":"VIDEO EDITOR / MOTION DESIGNER","heroLine1":"MAKE IT","heroLine2":"MOVE.","heroText":"I create cinematic edits, short-form content and motion graphics with strong pacing, sound design and visual storytelling.","aboutTitle":"Every frame has a purpose.","aboutText":"I'm a video editor and motion designer focused on turning raw footage and ideas into polished, engaging visual stories.","skills":["Premiere Pro","After Effects","Motion Graphics","Short Form"],"otherSocials":[],"photo":"https://i.postimg.cc/K8Sk01LX/Firefly-A-powerful-editorial-highly-detailed-photorealistic-dynamic-low-angle-portrait-eff-161025.png","stats":[{"value":"20","label":"Projects"},{"value":"10","label":"Clients"},{"value":"3","label":"Years"}]}}</script>
+<script>
+const SITE = {
+  name: "YOUR NAME",                              // CHANGE YOUR NAME HERE
+  email: "your@email.com",                        // CHANGE YOUR EMAIL HERE
+  whatsapp: "YOUR_WHATSAPP_LINK",                 // CHANGE WHATSAPP HERE e.g. "https://wa.me/201000000000"
+  instagram: "YOUR_INSTAGRAM_LINK",               // CHANGE INSTAGRAM HERE e.g. "https://instagram.com/yourname"
+  otherSocials: [                                 // CHANGE / ADD SOCIAL LINKS HERE (delete the lines you don't need)
+    { label: "YouTube", url: "https://youtube.com/" },
+    { label: "Behance", url: "https://behance.net/" }
+  ],
+
+  heroLabel: "VIDEO EDITOR / MOTION DESIGNER",    // CHANGE HERO LABEL HERE
+  heroLine1: "MAKE IT",                           // CHANGE HERO HEADLINE (white part)
+  heroLine2: "MOVE.",                             // CHANGE HERO HEADLINE (gray part)
+  heroText: "I create cinematic edits, short-form content and motion graphics with strong pacing, sound design and visual storytelling.",
+
+  aboutTitle: "Every frame has a purpose.",       // CHANGE ABOUT TITLE HERE
+  aboutText: "I'm a video editor and motion designer focused on turning raw footage and ideas into polished, engaging visual stories.", // CHANGE ABOUT TEXT HERE
+
+  skills: ["Premiere Pro","After Effects","Motion Graphics","Color Grading","Sound Design","Short Form"], // CHANGE SKILLS HERE
+
+  /* ---------- PROJECTS ----------
+     To ADD a project: copy one whole { ... }, block, paste it after the last one.
+     To REMOVE a project: delete its whole { ... }, block.
+     video     = YouTube/Vimeo link OR a file like "videos/my-edit.mp4" (leave "" if none)
+     thumbnail = image like "images/my-thumb.jpg" (leave "" to show a dark placeholder box)
+     link      = optional page link shown inside the player (leave "" if none)            */
+  projects: [
+    {
+      title: "Project One",                        // PROJECT TITLE
+      category: "Cinematic Editing · Sound Design",
+      description: "Short description of this project goes here.", // PROJECT DESCRIPTION
+      video: "",                                   // PROJECT VIDEO (e.g. "https://www.youtube.com/watch?v=XXXX")
+      thumbnail: "",                               // PROJECT THUMBNAIL (e.g. "images/one.jpg")
+      link: ""                                     // PROJECT LINK
+    },
+    {
+      title: "Project Two",
+      category: "Short Form · Motion Graphics",
+      description: "Short description of this project goes here.",
+      video: "", thumbnail: "", link: ""
+    },
+    {
+      title: "Project Three",
+      category: "After Effects · Visual Design",
+      description: "Short description of this project goes here.",
+      video: "", thumbnail: "", link: ""
+    },
+    {
+      title: "Project Four",
+      category: "Editing · Color Grading · SFX",
+      description: "Short description of this project goes here.",
+      video: "", thumbnail: "", link: ""
+    }
+  ]
+};
+</script><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style>
+
+<style>
+/* ---------- BASE ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Archivo","Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img,video{max-width:100%;display:block}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{width:min(1240px,100% - 48px);margin-inline:auto}
+section{padding:clamp(80px,12vw,160px) 0}
+.label{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:500}
+h1,h2,h3{margin:0;line-height:.95;font-weight:800;letter-spacing:-.03em}
+h2{font-size:clamp(40px,7vw,88px);font-stretch:85%}
+p{margin:0}
+.muted{color:var(--muted)}
+
+/* ---------- BUTTONS ---------- */
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 28px;border:1px solid var(--border);font-weight:600;font-size:15px;transition:background .3s,color .3s,border-color .3s}
+.btn:hover{border-color:var(--accent)}
+.btn.solid{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.btn.solid:hover{background:transparent;color:var(--accent)}
+
+/* ---------- NAV ---------- */
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .4s,border-color .4s,transform .4s;border-bottom:1px solid transparent}
+header.scrolled{background:rgba(7,7,7,.88);backdrop-filter:blur(10px);border-color:var(--border)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font-weight:800;letter-spacing:.04em}
+.nav ul{display:flex;gap:36px;list-style:none;margin:0;padding:0}
+.nav ul a{font-size:14px;color:var(--muted);transition:color .25s}
+.nav ul a:hover{color:var(--text)}
+.burger{display:none;width:44px;height:44px;position:relative}
+.burger span{position:absolute;left:10px;right:10px;height:1.5px;background:var(--text);transition:transform .3s,top .3s}
+.burger span:first-child{top:19px}.burger span:last-child{top:25px}
+.burger[aria-expanded="true"] span:first-child{top:22px;transform:rotate(45deg)}
+.burger[aria-expanded="true"] span:last-child{top:22px;transform:rotate(-45deg)}
+
+/* ---------- HERO ---------- */
+.hero{min-height:100svh;display:flex;align-items:center;position:relative;overflow:hidden;padding:120px 0 80px}
+.hero h1{font-size:clamp(72px,17vw,250px);font-stretch:80%;margin:28px 0}
+.hero h1 .dim{color:#3a3a3a}
+.hero p.lead{max-width:520px;color:var(--muted);font-size:clamp(16px,1.6vw,19px)}
+.hero .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:40px}
+/* subtle motion: a thin "playhead" sweeping across a faint timeline */
+.timeline{position:absolute;inset:auto 0 56px 0;height:28px;border-top:1px solid var(--border);
+  background:repeating-linear-gradient(90deg,var(--border) 0 1px,transparent 1px 48px) top/100% 10px no-repeat}
+.playhead{position:absolute;top:-1px;bottom:-40px;left:0;width:1px;background:var(--text);opacity:.55;animation:scan 14s linear infinite}
+.playhead::before{content:"";position:absolute;top:-6px;left:-5px;width:11px;height:11px;background:var(--text);clip-path:polygon(0 0,100% 0,50% 100%)}
+@keyframes scan{from{left:0}to{left:100%}}
+
+/* ---------- WORK ---------- */
+.head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:56px;flex-wrap:wrap}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:48px 32px}
+.project{display:block;text-align:left;width:100%}
+.thumb{position:relative;aspect-ratio:16/9;background:var(--card);border:1px solid var(--border);overflow:hidden}
+.thumb img,.thumb video{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none;transition:transform .8s cubic-bezier(.2,.7,.2,1),opacity .4s;opacity:.85}
+.thumb .ph{position:absolute;inset:0;display:grid;place-items:center;color:#2c2c2c;font-weight:800;font-size:clamp(20px,3vw,36px);letter-spacing:.1em}
+.play{position:absolute;left:50%;top:50%;width:68px;height:68px;margin:-34px 0 0 -34px;border:1px solid var(--text);border-radius:50%;display:grid;place-items:center;transition:transform .4s,background .3s,color .3s}
+.play::after{content:"";margin-left:4px;border-left:14px solid currentColor;border-top:9px solid transparent;border-bottom:9px solid transparent}
+.project:hover .thumb img,.project:hover .thumb video{transform:scale(1.04);opacity:1}
+.project:hover .play{background:var(--accent);color:var(--bg);transform:scale(1.1)}
+.meta{padding-top:20px;display:grid;gap:6px}
+.meta h3{font-size:clamp(24px,2.6vw,34px);letter-spacing:-.02em}
+.meta .cat{font-size:13px;color:var(--muted);letter-spacing:.08em}
+.meta .desc{color:var(--muted);font-size:15px;max-width:520px}
+
+/* ---------- ABOUT ---------- */
+.about{border-block:1px solid var(--border)}
+.about .cols{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:64px;align-items:center}
+.portrait{aspect-ratio:4/5;width:100%;max-width:440px;background:var(--card);border:1px solid var(--border);overflow:hidden;display:grid;place-items:center;font-size:96px;font-weight:800;color:#2a2a2a}
+.portrait img{width:100%;height:100%;object-fit:cover;display:block}
+.about h2{margin-bottom:28px}
+.numbers{padding:clamp(56px,8vw,96px) 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:36px 24px}
+.stat b{display:block;font-size:clamp(48px,8vw,104px);font-weight:800;font-stretch:80%;letter-spacing:-.03em;line-height:1}
+.stat span{display:block;margin-top:12px;color:var(--muted);font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.about p.big{font-size:clamp(18px,2vw,22px);color:var(--muted);max-width:480px;margin-bottom:32px}
+.tags{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.tags li{padding:9px 16px;border:1px solid var(--border);font-size:14px;transition:border-color .3s,background .3s}
+.tags li:hover{border-color:var(--accent);background:var(--card)}
+
+/* ---------- SERVICES ---------- */
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border)}
+.service{padding:40px 32px 48px;background:var(--card);transition:background .4s;min-height:280px;display:flex;flex-direction:column;justify-content:space-between;gap:48px}
+.service+.service{border-left:1px solid var(--border)}
+.service:hover{background:#171717}
+.service h3{font-size:clamp(26px,2.6vw,34px)}
+.service p{color:var(--muted);font-size:15px}
+
+/* ---------- CONTACT ---------- */
+.contact h2{font-size:clamp(56px,13vw,190px);font-stretch:80%;margin:20px 0 56px}
+.links{display:flex;flex-wrap:wrap;gap:14px}
+.socials{margin-top:32px;display:flex;gap:24px;flex-wrap:wrap}
+.socials a{color:var(--muted);font-size:14px;border-bottom:1px solid var(--border);transition:color .3s,border-color .3s}
+.socials a:hover{color:var(--text);border-color:var(--text)}
+
+/* ---------- FOOTER ---------- */
+footer{border-top:1px solid var(--border);padding:32px 0;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* ---------- LIGHTBOX ---------- */
+.lightbox{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.94);display:none;place-items:center;padding:24px}
+.lightbox.open{display:grid}
+.lb-inner{width:min(1100px,100%)}
+.lb-frame{aspect-ratio:16/9;background:#000;border:1px solid var(--border)}
+.lb-frame iframe,.lb-frame video{width:100%;height:100%;border:0}
+.lb-empty{height:100%;display:grid;place-items:center;color:var(--muted);text-align:center;padding:24px}
+.lb-info{display:flex;justify-content:space-between;gap:16px;align-items:start;padding-top:20px;flex-wrap:wrap}
+.lb-close{position:absolute;top:16px;right:16px;width:48px;height:48px;border:1px solid var(--border);font-size:22px}
+.lb-close:hover{border-color:var(--accent)}
+
+/* ---------- OWNER EDITING ---------- */
+[hidden]{display:none!important}
+header{padding-top:env(safe-area-inset-top,0px)}
+.del{position:absolute;top:10px;right:10px;z-index:3;padding:4px 12px;background:rgba(0,0,0,.8);border:1px solid var(--border);font-size:12px;font-weight:600}
+.ovl{position:fixed;inset:0;z-index:120;background:rgba(0,0,0,.94);display:none;overflow:auto;padding:24px 16px}
+.ovl.open{display:block}
+.panel{position:relative;width:min(640px,100%);margin:40px auto;background:var(--card);border:1px solid var(--border);padding:32px 28px}
+.panel h3{font-size:28px;margin-bottom:6px}
+.panel .lb-close{top:8px;right:8px}
+.f{display:grid;gap:6px;margin:14px 0}.f label{font-size:13px;color:var(--muted)}
+.f input,.f select,.f textarea{width:100%;padding:11px 12px;border:1px solid var(--border);background:var(--bg);color:var(--text);font:inherit;border-radius:0}
+.row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.socials a{display:inline-flex;align-items:center;gap:8px}
+/* ---------- REVEAL ---------- */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width:900px){
+  .grid{grid-template-columns:1fr}
+  .about .cols{grid-template-columns:1fr;gap:40px}
+  .services{grid-template-columns:1fr}
+  .service+.service{border-left:0;border-top:1px solid var(--border)}
+  .service{min-height:0}
+  .burger{display:block}
+  .nav ul{position:fixed;inset:72px 0 auto 0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--border);padding:8px 24px 24px;transform:translateY(-130%);transition:transform .45s cubic-bezier(.2,.7,.2,1);z-index:-1}
+  .nav ul.open{transform:none}
+  .nav ul a{display:block;padding:16px 0;font-size:22px;color:var(--text);border-bottom:1px solid var(--border)}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+}
+</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style>
+<style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style></head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header id="top">
+  <div class="wrap nav">
+    <a href="#top" class="logo" data-site="name">YOUR NAME</a> <!-- CHANGE YOUR NAME HERE (or in SITE settings at top) -->
+    <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    <ul id="menu">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <p class="label" id="heroLabel">VIDEO EDITOR / MOTION DESIGNER</p>
+    <h1><span id="heroLine1">MAKE IT</span><br><span class="dim" id="heroLine2">MOVE.</span></h1>
+    <p class="lead" id="heroText"></p>
+    <div class="actions">
+      <a class="btn solid" href="#work">Explore My Work ↓</a>
+      <a class="btn" href="#contact">Let's Work</a>
+    </div>
+  </div>
+  <div class="timeline" aria-hidden="true"><div class="playhead"></div></div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section id="work">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>Recent Projects</h2>
+      <p class="label">Selected work</p>
+      <button class="btn" id="addBtn" hidden="">+ Add project</button>
+    </div>
+    <!-- Project cards are generated from the "projects" list in SITE SETTINGS at the top of this file -->
+    <div class="grid" id="projectGrid"></div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about">
+  <div class="wrap cols">
+    <div class="portrait reveal" id="portrait"></div> <!-- CHANGE PHOTO: use Edit site, or SITE.photo -->
+    <div class="reveal">
+      <h2 id="aboutTitle">Every frame has a purpose.</h2>
+      <p class="big" id="aboutText"></p>
+      <ul class="tags" id="skills"></ul> <!-- CHANGE SKILLS in SITE SETTINGS -->
+    </div>
+  </div>
+</section>
+
+<!-- ================= NUMBERS ================= -->
+<section class="numbers" id="numbers" aria-label="Numbers"><div class="wrap"><div class="stats" id="statsRow"></div></div></section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services">
+  <div class="wrap">
+    <div class="head reveal"><h2>Services</h2><p class="label">What I do</p></div>
+    <div class="services reveal">
+      <article class="service"><h3>Video Editing</h3><p>Cinematic cuts, pacing, transitions, storytelling and clean finishing.</p></article>
+      <article class="service"><h3>Motion Graphics</h3><p>Text animation, titles, visual effects and After Effects design.</p></article>
+      <article class="service"><h3>Short-Form Content</h3><p>Reels, Shorts and TikToks designed to grab attention quickly.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact">
+  <div class="wrap reveal">
+    <p class="label">Have a project?</p>
+    <h2>LET'S<br>CREATE.</h2>
+    <div class="links">
+      <a class="btn solid" id="mailLink" href="#">Email</a>
+      <a class="btn" id="waLink" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn" id="igLink" href="#" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <div class="socials" id="socials"></div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <span>© 2026 <span data-site="name">YOUR NAME</span></span>
+    <span>Video Editor · Motion Designer</span>
+  </div>
+</footer>
+
+<button class="btn solid" id="editBtn" hidden="" style="position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:60">Edit site</button>
+<div class="ovl" id="editModal" role="dialog" aria-modal="true" aria-label="Edit site"><div class="panel"><button class="lb-close" data-close="" aria-label="Close">✕</button>
+  <h3>Edit site</h3><p class="muted">Everything here changes the live page when you save.</p>
+  <div id="eFields"></div>
+  <div class="f"><label for="ePhotoUrl">Profile photo link (direct image link, shows on your shared website)</label><input id="ePhotoUrl" placeholder="https://.../photo.jpg"></div>
+  <div class="f"><label for="ePhoto">Or upload a photo file instead (shows on the Claude page only)</label><input id="ePhoto" type="file" accept="image/*"></div>
+  <div class="f"><label>Numbers (number + label, e.g. 50+ and Projects; leave a row empty to hide it)</label><div id="eStats"></div></div>
+  <div class="f"><label>Social links and icons</label><div id="eLinks"></div><button class="btn" id="eAddLink" type="button" style="justify-self:start">+ Add link</button></div>
+  <button class="btn solid" id="eSave">Save changes</button> <span id="eSt" class="muted"></span>
+</div></div>
+<div class="ovl" id="addModal" role="dialog" aria-modal="true" aria-label="Add project"><div class="panel"><button class="lb-close" data-close="" aria-label="Close">✕</button>
+  <h3>Add project</h3><p class="muted">Upload a video file (up to 20 MB) or paste a YouTube/Vimeo link for bigger videos.</p>
+  <div class="f"><label for="fTitle">Title</label><input id="fTitle"></div>
+  <div class="f"><label for="fCat">Category</label><input id="fCat" placeholder="Cinematic Editing · Sound Design"></div>
+  <div class="f"><label for="fDesc">Description</label><textarea id="fDesc" rows="3"></textarea></div>
+  <div class="f"><label for="fThumbUrl">Cover image link (optional, direct image link ending in .jpg or .png)</label><input id="fThumbUrl" placeholder="https://.../cover.jpg"></div>
+  <div class="f"><label for="fThumb">Or upload a cover image file</label><input id="fThumb" type="file" accept="image/*"></div>
+  <div class="f"><label for="fVideo">Video file</label><input id="fVideo" type="file" accept="video/*"></div>
+  <div class="f"><label for="fLink">Or video link (YouTube, Vimeo or MP4: the cover is taken from the video)</label><input id="fLink" placeholder="https://youtube.com/watch?v=..."></div>
+  <button class="btn solid" id="addSave">Save project</button> <span id="st" class="muted"></span>
+</div></div>
+
+<!-- ================= VIDEO LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project video">
+  <button class="lb-close" id="lbClose" aria-label="Close video">✕</button>
+  <div class="lb-inner">
+    <div class="lb-frame" id="lbFrame"></div>
+    <div class="lb-info">
+      <div><h3 id="lbTitle" style="font-size:26px"></h3><p class="muted" id="lbCat"></p></div>
+      <a class="btn" id="lbLink" href="#" target="_blank" rel="noopener" hidden="">View project ↗</a>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ===== Everything below fills the page from SITE SETTINGS. You normally don't need to edit it. ===== */
+(function(){
+  const PRISTINE = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+  const DATA = JSON.parse(document.getElementById("data").textContent);
+  Object.assign(SITE, DATA.profile || {});
+  let projects = DATA.projects || SITE.projects, seeded = !DATA.projects, assets = null, artifact = null;
+  const ICONS = {instagram:'<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/>',youtube:'<rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor"/>',mail:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',chat:'<path d="M4 5h16v11H9l-5 4z"/>',globe:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>',link:'<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>'};
+  const guess = u => { u = (u||"").toLowerCase(); return u.includes("instagram")?"instagram":u.includes("youtu")?"youtube":/wa\.me|whatsapp/.test(u)?"chat":u.startsWith("mailto")?"mail":"link"; };
+  const icon = l => '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[ICONS[l.icon]?l.icon:guess(l.url)] + '</svg>';
+  const U = u => /^(https?:|mailto:|tel:)/i.test(u) ? u : "https://" + u;
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  // Text
+  document.querySelectorAll('[data-site="name"]').forEach(e => e.textContent = SITE.name);
+  document.title = SITE.name + " — Video Editor & Motion Designer";
+  $('#heroLabel').textContent = SITE.heroLabel;
+  $('#heroLine1').textContent = SITE.heroLine1;
+  $('#heroLine2').textContent = SITE.heroLine2;
+  $('#heroText').textContent = SITE.heroText;
+  $('#aboutTitle').textContent = SITE.aboutTitle;
+  $('#aboutText').textContent = SITE.aboutText;
+  $('#skills').innerHTML = SITE.skills.map(s => '<li>' + esc(s) + '</li>').join('');
+  $('#portrait').innerHTML = SITE.photo ? '<img src="' + esc(SITE.photo) + '" referrerpolicy="no-referrer" alt="' + esc(SITE.name) + '" loading="lazy">' : esc((SITE.name.replace(/[\[\]]/g, '').trim()[0] || 'Y').toUpperCase());
+  if (!SITE.stats) SITE.stats = [{value:'50+', label:'Projects'}, {value:'20+', label:'Clients'}, {value:'4', label:'Years'}]; // CHANGE NUMBERS HERE (or use Edit site)
+  $('#statsRow').innerHTML = SITE.stats.map(s => '<div class="stat reveal"><b data-v="' + esc(s.value) + '">' + esc(s.value) + '</b><span>' + esc(s.label) + '</span></div>').join('');
+
+  // Contact links
+  $('#mailLink').href = 'mailto:' + SITE.email;
+  $('#mailLink').textContent = SITE.email;
+  $('#waLink').href = SITE.whatsapp;
+  $('#igLink').href = SITE.instagram;
+  $('#socials').innerHTML = SITE.otherSocials.map(s => '<a href="' + esc(U(s.url)) + '" target="_blank" rel="noopener">' + icon(s) + esc(s.label) + '</a>').join('');
+  [['#mailLink','mail'],['#waLink','chat'],['#igLink','instagram']].forEach(([q,k]) => $(q).insertAdjacentHTML('afterbegin', icon({icon:k})));
+
+  // Projects
+  // Cover order: your own image, then a frame of the video (MP4 links), then the YouTube/Vimeo thumbnail, then a dark placeholder
+  const ytId = u => { const m = (u || '').match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/|youtube\.com\/embed\/)([\w-]{11})/); return m ? m[1] : null; };
+  const ph = p => '<div class="ph">' + esc(p.title.toUpperCase()) + '</div>';
+  function cover(p) {
+    if (p.thumbnail) return '<img src="' + esc(p.thumbnail) + '" referrerpolicy="no-referrer" alt="' + esc(p.title) + ' thumbnail" loading="lazy">';
+    const y = ytId(p.video);
+    if (y) return '<img data-yt="1" src="https://i.ytimg.com/vi/' + y + '/hqdefault.jpg" alt="' + esc(p.title) + ' thumbnail" loading="lazy">';
+    if (/vimeo\.com/.test(p.video || '')) return ph(p).replace('class="ph"', 'class="ph" data-vm="' + esc(p.video) + '"');
+    if (p.video) return '<video muted playsinline preload="metadata" src="' + esc(p.video) + '#t=0.5" aria-hidden="true"></video>';
+    return ph(p);
+  }
+  $('#projectGrid').innerHTML = projects.map((p, i) =>
+    '<button class="project reveal" data-i="' + i + '" aria-label="Play ' + esc(p.title) + '">' +
+      '<div class="thumb">' +
+        cover(p) +
+        '<span class="play" aria-hidden="true"></span>' +
+      '</div>' +
+      '<div class="meta"><h3>' + esc(p.title) + '</h3><span class="cat">' + esc(p.category) + '</span><p class="desc">' + esc(p.description) + '</p></div>' +
+    '</button>'
+  ).join('');
+  document.querySelectorAll('.thumb img[data-yt], .thumb video').forEach(el => el.addEventListener('error', () => { el.outerHTML = ph(projects[+el.closest('.project').dataset.i]); }));
+  document.querySelectorAll('.thumb .ph[data-vm]').forEach(async el => { try { const r = await fetch('https://vimeo.com/api/oembed.json?url=' + encodeURIComponent(el.dataset.vm)); const j = await r.json(); if (j.thumbnail_url) el.outerHTML = '<img src="' + esc(j.thumbnail_url.replace(/_\d+x\d+/, '_960')) + '" alt="" loading="lazy">'; } catch (e) {} });
+
+  // Lightbox
+  const lb = $('#lightbox'), frame = $('#lbFrame');
+  let lastFocus = null;
+  function embedUrl(u){
+    let m = u.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([\w-]{11})/);
+    if (m) return 'https://www.youtube.com/embed/' + m[1] + '?autoplay=1&rel=0';
+    m = u.match(/vimeo\.com\/(\d+)/);
+    if (m) return 'https://player.vimeo.com/video/' + m[1] + '?autoplay=1';
+    return null;
+  }
+  function openLB(i){
+    const p = projects[i]; lastFocus = document.activeElement;
+    $('#lbTitle').textContent = p.title; $('#lbCat').textContent = p.category;
+    const l = $('#lbLink'); l.hidden = !p.link; if (p.link) l.href = p.link;
+    if (p.videoParts) playParts(p, frame);
+    else if (!p.video) frame.innerHTML = '<div class="lb-empty">Add your video link for this project in SITE SETTINGS (video: "...").</div>';
+    else if (embedUrl(p.video)) frame.innerHTML = '<iframe src="' + esc(embedUrl(p.video)) + '" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="' + esc(p.title) + '"></iframe>';
+    else frame.innerHTML = '<video src="' + esc(p.video) + '" controls autoplay playsinline></video>';
+    lb.classList.add('open'); document.body.style.overflow = 'hidden'; $('#lbClose').focus();
+  }
+  let playTok = 0;
+  async function playParts(p, frame) {
+    const tok = ++playTok, box = document.createElement('div'); box.className = 'lb-empty';
+    frame.innerHTML = ''; frame.appendChild(box);
+    try {
+      const blobs = [];
+      for (let i = 0; i < p.videoParts.length; i++) {
+        box.textContent = 'Loading video… ' + (i + 1) + ' / ' + p.videoParts.length;
+        const r = await fetch(p.videoParts[i]); if (!r.ok) throw new Error('part ' + (i + 1));
+        blobs.push(await r.blob()); if (tok !== playTok) return;
+      }
+      const v = document.createElement('video'); v.controls = true; v.autoplay = true; v.playsInline = true;
+      v.src = URL.createObjectURL(new Blob(blobs, {type: p.videoType || 'video/mp4'}));
+      frame.innerHTML = ''; frame.appendChild(v);
+    } catch (e) { if (tok === playTok) box.textContent = 'Could not load this video. Try a YouTube link instead.'; }
+  }
+  function closeLB(){
+    playTok++;
+    lb.classList.remove('open'); frame.innerHTML = ''; document.body.style.overflow = '';
+    if (lastFocus) lastFocus.focus();
+  }
+  let delArm = null;
+  $('#projectGrid').addEventListener('click', async e => {
+    const d = e.target.closest('[data-del]');
+    if (d) { e.stopPropagation(); const i = +d.dataset.del;
+      if (delArm !== i) { delArm = i; d.textContent = 'Click again to delete'; return; }
+      projects = projects.filter((_, k) => k !== i); seeded = false; try { await save(); } catch (x) {} return; }
+    const b = e.target.closest('.project'); if (b) openLB(+b.dataset.i);
+  });
+  $('#lbClose').addEventListener('click', closeLB);
+  lb.addEventListener('click', e => { if (e.target === lb) closeLB(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && lb.classList.contains('open')) closeLB(); });
+
+  // Nav: scrolled state + mobile menu
+  const header = $('header'), burger = $('.burger'), menu = $('#menu');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 40);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+  burger.addEventListener('click', () => {
+    const o = menu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', o); burger.setAttribute('aria-label', o ? 'Close menu' : 'Open menu');
+  });
+  menu.addEventListener('click', e => { if (e.target.tagName === 'A'){ menu.classList.remove('open'); burger.setAttribute('aria-expanded', false); } });
+
+  // grabs a frame from the video file to use as the cover
+  function frameOf(file) { return new Promise(res => {
+    const v = document.createElement('video'), u = URL.createObjectURL(file);
+    v.muted = true; v.playsInline = true; v.preload = 'auto'; v.src = u;
+    const done = b => { URL.revokeObjectURL(u); res(b); };
+    const t = setTimeout(() => done(null), 15000);
+    v.onerror = () => { clearTimeout(t); done(null); };
+    v.onloadeddata = () => { v.currentTime = Math.min(1, (v.duration || 2) / 2); };
+    v.onseeked = () => { try {
+      const w = Math.min(v.videoWidth, 960), c = document.createElement('canvas');
+      c.width = w; c.height = Math.round(w * v.videoHeight / v.videoWidth);
+      c.getContext('2d').drawImage(v, 0, 0, c.width, c.height);
+      c.toBlob(b => { clearTimeout(t); done(b); }, 'image/png');
+    } catch (e) { clearTimeout(t); done(null); } };
+  }); }
+  // ---- owner-only editing: changes are saved into the published page ----
+  async function save() {
+    const profile = {}; FIELDS.forEach(f => profile[f[0]] = SITE[f[0]]); profile.otherSocials = SITE.otherSocials; profile.photo = SITE.photo || ''; profile.stats = SITE.stats;
+    const json = JSON.stringify({projects: seeded ? null : projects, profile}).replace(/</g, "\\u003c");
+    const html = PRISTINE.replace(/(<script type="application\/json" id="data">)[\s\S]*?(<\/script>)/, (m, a, b) => a + json + b);
+    await artifact.publish(html);
+  }
+  const FIELDS = [['name','Name'],['email','Email'],['whatsapp','WhatsApp link (https://wa.me/20100...)'],['instagram','Instagram link'],['heroLabel','Small label above headline'],['heroLine1','Headline, white part'],['heroLine2','Headline, gray part'],['heroText','Hero text','ta'],['aboutTitle','About title'],['aboutText','About text','ta'],['skills','Skills, separated by commas','list']];
+  let editLinks = [];
+  function linkRows() { $('#eLinks').innerHTML = editLinks.map((l, i) => '<div class="row"><input style="flex:1 1 100px" data-k="label" data-i="'+i+'" value="'+esc(l.label)+'" placeholder="Name" aria-label="Link name"><input style="flex:2 1 180px" data-k="url" data-i="'+i+'" value="'+esc(l.url)+'" placeholder="https://..." aria-label="Link address"><select style="flex:0 0 110px" data-k="icon" data-i="'+i+'" aria-label="Icon">'+Object.keys(ICONS).map(k => '<option'+((l.icon||guess(l.url))===k?' selected':'')+'>'+k+'</option>').join('')+'</select><button class="btn" type="button" data-rm="'+i+'" aria-label="Remove link" style="padding:6px 12px">✕</button></div>').join(''); }
+  $('#eLinks').oninput = e => { const t = e.target; if (t.dataset.k) editLinks[+t.dataset.i][t.dataset.k] = t.value; };
+  $('#eLinks').onclick = e => { const b = e.target.closest('[data-rm]'); if (b) { editLinks.splice(+b.dataset.rm, 1); linkRows(); } };
+  $('#eAddLink').onclick = () => { editLinks.push({label:'',url:'',icon:'link'}); linkRows(); };
+  const openOvl = id => { $(id).classList.add('open'); document.body.style.overflow = 'hidden'; };
+  const closeOvl = () => { document.querySelectorAll('.ovl.open').forEach(o => o.classList.remove('open')); document.body.style.overflow = ''; };
+  document.querySelectorAll('.ovl').forEach(o => o.addEventListener('click', e => { if (e.target === o || e.target.closest('[data-close]')) closeOvl(); }));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeOvl(); });
+  $('#editBtn').onclick = () => {
+    $('#eFields').innerHTML = FIELDS.map(f => { const v = f[2]==='list' ? SITE[f[0]].join(', ') : SITE[f[0]]; return '<div class="f"><label for="e_'+f[0]+'">'+esc(f[1])+'</label>' + (f[2]==='ta' ? '<textarea id="e_'+f[0]+'" rows="3">'+esc(v)+'</textarea>' : '<input id="e_'+f[0]+'" value="'+esc(v)+'">') + '</div>'; }).join('');
+    editLinks = SITE.otherSocials.map(l => Object.assign({}, l)); linkRows();
+    $('#ePhotoUrl').value = /^https?:/.test(SITE.photo || '') ? SITE.photo : '';
+    $('#eStats').innerHTML = [0, 1, 2, 3].map(i => { const s = (SITE.stats || [])[i] || {value:'', label:''}; return '<div class="row"><input style="flex:1 1 90px" id="eS' + i + 'v" value="' + esc(s.value) + '" placeholder="50+" aria-label="Number"><input style="flex:2 1 160px" id="eS' + i + 'l" value="' + esc(s.label) + '" placeholder="Projects" aria-label="Label"></div>'; }).join(''); $('#eSt').textContent = ''; $('#eSave').disabled = false; openOvl('#editModal');
+  };
+  $('#eSave').onclick = async () => {
+    $('#eSave').disabled = true; $('#eSt').textContent = 'Saving… keep this page open';
+    try {
+      FIELDS.forEach(f => { const v = $('#e_'+f[0]).value.trim(); SITE[f[0]] = f[2]==='list' ? v.split(',').map(x => x.trim()).filter(Boolean) : v; });
+      const pf = $('#ePhoto').files[0], pu = $('#ePhotoUrl').value.trim();
+      if (pf) SITE.photo = (await assets.upload(pf)).url; else if (pu) SITE.photo = pu; else if (/^https?:/.test(SITE.photo || '')) SITE.photo = '';
+      SITE.stats = [0, 1, 2, 3].map(i => ({value: $('#eS' + i + 'v').value.trim(), label: $('#eS' + i + 'l').value.trim()})).filter(s => s.value || s.label);
+      SITE.otherSocials = editLinks.filter(l => l.url.trim()).map(l => ({label: l.label.trim()||'Link', url: l.url.trim(), icon: l.icon}));
+      await save();
+    } catch (e) { $('#eSt').textContent = 'Failed: ' + (e.message || e.code || 'error'); $('#eSave').disabled = false; }
+  };
+  $('#addBtn').onclick = () => { $('#st').textContent = ''; $('#addSave').disabled = false; openOvl('#addModal'); $('#fTitle').focus(); };
+  $('#addSave').onclick = async () => {
+    const t = $('#fTitle').value.trim(); if (!t) { $('#st').textContent = 'Add a title first'; return; }
+    $('#addSave').disabled = true; $('#st').textContent = 'Uploading… keep this page open';
+    try {
+      let thumbnail = '', video = $('#fLink').value.trim(), videoParts = null, videoType = '';
+      const tf = $('#fThumb').files[0], vf = $('#fVideo').files[0], tu = $('#fThumbUrl').value.trim();
+      if (tf) thumbnail = (await assets.upload(tf)).url;
+      else if (tu) thumbnail = tu;
+      else if (vf) { $('#st').textContent = 'Making a cover from your video…'; const fb = await frameOf(vf); if (fb) thumbnail = (await assets.upload(fb)).url; }
+      if (vf) {
+        const CH = 19 * 1024 * 1024, vt = /webm/.test(vf.type) ? 'video/webm' : 'video/mp4';
+        if (vf.size <= CH) video = (await assets.upload(new Blob([vf], {type: vt}))).url;
+        else {
+          const n = Math.ceil(vf.size / CH); videoParts = []; videoType = vt;
+          for (let k = 0; k < n; k++) {
+            $('#st').textContent = 'Uploading part ' + (k + 1) + ' of ' + n + '… keep this page open';
+            videoParts.push((await assets.upload(vf.slice(k * CH, (k + 1) * CH, videoType))).url);
+          }
+        }
+      }
+      projects = [{title:t, category:$('#fCat').value.trim(), description:$('#fDesc').value.trim(), video, videoParts, videoType, thumbnail, link:''}].concat(seeded ? [] : projects); seeded = false;
+      $('#st').textContent = 'Publishing…'; await save();
+    } catch (e) { $('#st').textContent = 'Failed: ' + (e.message || e.code || 'error'); $('#addSave').disabled = false; }
+  };
+  (async () => { try {
+    if (!window.claude) return;
+    const u = await claude.use('user'), a = await claude.use('assets'), p = await claude.use('artifact');
+    if (u && a && p && await u.canEdit()) {
+      assets = a; artifact = p; $('#addBtn').hidden = false; $('#editBtn').hidden = false;
+      document.querySelectorAll('.project .thumb').forEach((t, i) => { const d = document.createElement('span'); d.className = 'del'; d.setAttribute('role','button'); d.dataset.del = i; d.textContent = 'Delete'; t.appendChild(d); });
+    }
+  } catch (e) {} })();
+
+  // Counting numbers
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches, NUM = /^(\D*)(\d[\d,]*)(\D*)$/;
+  function countUp(el) {
+    const m = el.dataset.v.match(NUM); if (!m) return;
+    const end = +m[2].replace(/,/g, ''), t0 = performance.now(), dur = 1400;
+    (function tick(t) { const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3); el.textContent = m[1] + Math.round(end * e).toLocaleString('en') + m[3]; if (k < 1) requestAnimationFrame(tick); })(t0);
+  }
+  const sb = document.querySelectorAll('#statsRow b');
+  if ('IntersectionObserver' in window && !reduceMotion) {
+    sb.forEach(b => { const m = b.dataset.v.match(NUM); if (m) b.textContent = m[1] + '0' + m[3]; });
+    const io2 = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { countUp(en.target); io2.unobserve(en.target); } }), {threshold: .4});
+    sb.forEach(b => io2.observe(b));
+  }
+
+  // Reveal on scroll
+  const els = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+    const io = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } }), {threshold:.12});
+    els.forEach(e => io.observe(e));
+  } else els.forEach(e => e.classList.add('in'));
+})();
+</script></body></html>
